@@ -1,0 +1,6 @@
+framework module Pods_LocalStorage_LocalStorageUITests {
+  umbrella header "Pods-LocalStorage-LocalStorageUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

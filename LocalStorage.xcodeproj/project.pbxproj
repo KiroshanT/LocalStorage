@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		414AB9DB0A9B38F65CBD12C6 /* Pods_LocalStorage_LocalStorageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DF376044F15F9046AA782F /* Pods_LocalStorage_LocalStorageUITests.framework */; };
+		A424A8674A74EACC74DCFC69 /* Pods_LocalStorageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107A5010BFE48544723B0675 /* Pods_LocalStorageTests.framework */; };
+		C34468492869BF8F00F111DD /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34468482869BF8F00F111DD /* DetailsViewController.swift */; };
+		C37485C02869831C0098F946 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37485BF2869831C0098F946 /* AppDelegate.swift */; };
+		C37485C22869831C0098F946 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37485C12869831C0098F946 /* SceneDelegate.swift */; };
+		C37485C42869831C0098F946 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37485C32869831C0098F946 /* ViewController.swift */; };
+		C37485C72869831C0098F946 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37485C52869831C0098F946 /* Main.storyboard */; };
+		C37485CA2869831C0098F946 /* LocalStorage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C37485C82869831C0098F946 /* LocalStorage.xcdatamodeld */; };
+		C37485CC2869831E0098F946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37485CB2869831E0098F946 /* Assets.xcassets */; };
+		C37485CF2869831E0098F946 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37485CD2869831E0098F946 /* LaunchScreen.storyboard */; };
+		C37485DA2869831E0098F946 /* LocalStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37485D92869831E0098F946 /* LocalStorageTests.swift */; };
+		C37485E42869831E0098F946 /* LocalStorageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37485E32869831E0098F946 /* LocalStorageUITests.swift */; };
+		C37485E62869831E0098F946 /* LocalStorageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37485E52869831E0098F946 /* LocalStorageUITestsLaunchTests.swift */; };
+		C37485F7286985BC0098F946 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37485F6286985BC0098F946 /* ErrorHandler.swift */; };
+		C37485F9286985F20098F946 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37485F8286985F20098F946 /* ApiClient.swift */; };
+		C37485FC286986500098F946 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37485FB286986500098F946 /* Common.swift */; };
+		C3748602286988560098F946 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3748601286988560098F946 /* UserModel.swift */; };
+		C37486042869886A0098F946 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37486032869886A0098F946 /* User.swift */; };
+		C37486062869893D0098F946 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37486052869893D0098F946 /* UserTableViewCell.swift */; };
+		FE8F913C0DE1BA6653754CB7 /* Pods_LocalStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFFF9F56AA6B3EB5E878D81 /* Pods_LocalStorage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C37485D62869831E0098F946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C37485B42869831C0098F946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C37485BB2869831C0098F946;
+			remoteInfo = LocalStorage;
+		};
+		C37485E02869831E0098F946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C37485B42869831C0098F946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C37485BB2869831C0098F946;
+			remoteInfo = LocalStorage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		107A5010BFE48544723B0675 /* Pods_LocalStorageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalStorageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		364E395CBA3402AA003EDDD7 /* Pods-LocalStorage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalStorage.debug.xcconfig"; path = "Target Support Files/Pods-LocalStorage/Pods-LocalStorage.debug.xcconfig"; sourceTree = "<group>"; };
+		BDBA02328ED49DB17B6B3BA5 /* Pods-LocalStorageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalStorageTests.debug.xcconfig"; path = "Target Support Files/Pods-LocalStorageTests/Pods-LocalStorageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C34468482869BF8F00F111DD /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		C37485BC2869831C0098F946 /* LocalStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37485BF2869831C0098F946 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C37485C12869831C0098F946 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C37485C32869831C0098F946 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C37485C62869831C0098F946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C37485C92869831C0098F946 /* LocalStorage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LocalStorage.xcdatamodel; sourceTree = "<group>"; };
+		C37485CB2869831E0098F946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C37485CE2869831E0098F946 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C37485D02869831E0098F946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C37485D52869831E0098F946 /* LocalStorageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalStorageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37485D92869831E0098F946 /* LocalStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageTests.swift; sourceTree = "<group>"; };
+		C37485DF2869831E0098F946 /* LocalStorageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalStorageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37485E32869831E0098F946 /* LocalStorageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageUITests.swift; sourceTree = "<group>"; };
+		C37485E52869831E0098F946 /* LocalStorageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C37485F6286985BC0098F946 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		C37485F8286985F20098F946 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		C37485FB286986500098F946 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		C3748601286988560098F946 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		C37486032869886A0098F946 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C37486052869893D0098F946 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		D19371903BBC48E68F730CFC /* Pods-LocalStorage-LocalStorageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalStorage-LocalStorageUITests.release.xcconfig"; path = "Target Support Files/Pods-LocalStorage-LocalStorageUITests/Pods-LocalStorage-LocalStorageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D7DFD7F9424213899E5A977B /* Pods-LocalStorageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalStorageTests.release.xcconfig"; path = "Target Support Files/Pods-LocalStorageTests/Pods-LocalStorageTests.release.xcconfig"; sourceTree = "<group>"; };
+		E7760303CC3E86758B06DA92 /* Pods-LocalStorage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalStorage.release.xcconfig"; path = "Target Support Files/Pods-LocalStorage/Pods-LocalStorage.release.xcconfig"; sourceTree = "<group>"; };
+		F224B1F435B7B6B75FE64D29 /* Pods-LocalStorage-LocalStorageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalStorage-LocalStorageUITests.debug.xcconfig"; path = "Target Support Files/Pods-LocalStorage-LocalStorageUITests/Pods-LocalStorage-LocalStorageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6DF376044F15F9046AA782F /* Pods_LocalStorage_LocalStorageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalStorage_LocalStorageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFFF9F56AA6B3EB5E878D81 /* Pods_LocalStorage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalStorage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C37485B92869831C0098F946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8F913C0DE1BA6653754CB7 /* Pods_LocalStorage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37485D22869831E0098F946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A424A8674A74EACC74DCFC69 /* Pods_LocalStorageTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37485DC2869831E0098F946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				414AB9DB0A9B38F65CBD12C6 /* Pods_LocalStorage_LocalStorageUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FA3D7EF1D508FCBB7C2AEEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAFFF9F56AA6B3EB5E878D81 /* Pods_LocalStorage.framework */,
+				F6DF376044F15F9046AA782F /* Pods_LocalStorage_LocalStorageUITests.framework */,
+				107A5010BFE48544723B0675 /* Pods_LocalStorageTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9C04ECCA29083A7FC37AA5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				364E395CBA3402AA003EDDD7 /* Pods-LocalStorage.debug.xcconfig */,
+				E7760303CC3E86758B06DA92 /* Pods-LocalStorage.release.xcconfig */,
+				F224B1F435B7B6B75FE64D29 /* Pods-LocalStorage-LocalStorageUITests.debug.xcconfig */,
+				D19371903BBC48E68F730CFC /* Pods-LocalStorage-LocalStorageUITests.release.xcconfig */,
+				BDBA02328ED49DB17B6B3BA5 /* Pods-LocalStorageTests.debug.xcconfig */,
+				D7DFD7F9424213899E5A977B /* Pods-LocalStorageTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C37485B32869831C0098F946 = {
+			isa = PBXGroup;
+			children = (
+				C37485BE2869831C0098F946 /* LocalStorage */,
+				C37485D82869831E0098F946 /* LocalStorageTests */,
+				C37485E22869831E0098F946 /* LocalStorageUITests */,
+				C37485BD2869831C0098F946 /* Products */,
+				A9C04ECCA29083A7FC37AA5F /* Pods */,
+				7FA3D7EF1D508FCBB7C2AEEA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C37485BD2869831C0098F946 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C37485BC2869831C0098F946 /* LocalStorage.app */,
+				C37485D52869831E0098F946 /* LocalStorageTests.xctest */,
+				C37485DF2869831E0098F946 /* LocalStorageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C37485BE2869831C0098F946 /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				C37485FA286986390098F946 /* Utilities */,
+				C37485F5286985A90098F946 /* Models */,
+				C37485F42869859C0098F946 /* Views */,
+				C37485F3286985940098F946 /* Controllers */,
+				C37485F2286985890098F946 /* Helpers */,
+				C37485BF2869831C0098F946 /* AppDelegate.swift */,
+				C37485C12869831C0098F946 /* SceneDelegate.swift */,
+				C37485C52869831C0098F946 /* Main.storyboard */,
+				C37485CB2869831E0098F946 /* Assets.xcassets */,
+				C37485CD2869831E0098F946 /* LaunchScreen.storyboard */,
+				C37485D02869831E0098F946 /* Info.plist */,
+				C37485C82869831C0098F946 /* LocalStorage.xcdatamodeld */,
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
+		C37485D82869831E0098F946 /* LocalStorageTests */ = {
+			isa = PBXGroup;
+			children = (
+				C37485D92869831E0098F946 /* LocalStorageTests.swift */,
+			);
+			path = LocalStorageTests;
+			sourceTree = "<group>";
+		};
+		C37485E22869831E0098F946 /* LocalStorageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C37485E32869831E0098F946 /* LocalStorageUITests.swift */,
+				C37485E52869831E0098F946 /* LocalStorageUITestsLaunchTests.swift */,
+			);
+			path = LocalStorageUITests;
+			sourceTree = "<group>";
+		};
+		C37485F2286985890098F946 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C37485F6286985BC0098F946 /* ErrorHandler.swift */,
+				C37485F8286985F20098F946 /* ApiClient.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C37485F3286985940098F946 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C37485C32869831C0098F946 /* ViewController.swift */,
+				C34468482869BF8F00F111DD /* DetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C37485F42869859C0098F946 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C37486052869893D0098F946 /* UserTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C37485F5286985A90098F946 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3748601286988560098F946 /* UserModel.swift */,
+				C37486032869886A0098F946 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C37485FA286986390098F946 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C37485FB286986500098F946 /* Common.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C37485BB2869831C0098F946 /* LocalStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37485E92869831E0098F946 /* Build configuration list for PBXNativeTarget "LocalStorage" */;
+			buildPhases = (
+				1C3A7041ADDE9F502DB74D4A /* [CP] Check Pods Manifest.lock */,
+				C37485B82869831C0098F946 /* Sources */,
+				C37485B92869831C0098F946 /* Frameworks */,
+				C37485BA2869831C0098F946 /* Resources */,
+				605763BCA84E9C806C9D883A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalStorage;
+			productName = LocalStorage;
+			productReference = C37485BC2869831C0098F946 /* LocalStorage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C37485D42869831E0098F946 /* LocalStorageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37485EC2869831E0098F946 /* Build configuration list for PBXNativeTarget "LocalStorageTests" */;
+			buildPhases = (
+				67D9CFD165F85189E26F1B5E /* [CP] Check Pods Manifest.lock */,
+				C37485D12869831E0098F946 /* Sources */,
+				C37485D22869831E0098F946 /* Frameworks */,
+				C37485D32869831E0098F946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C37485D72869831E0098F946 /* PBXTargetDependency */,
+			);
+			name = LocalStorageTests;
+			productName = LocalStorageTests;
+			productReference = C37485D52869831E0098F946 /* LocalStorageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C37485DE2869831E0098F946 /* LocalStorageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37485EF2869831E0098F946 /* Build configuration list for PBXNativeTarget "LocalStorageUITests" */;
+			buildPhases = (
+				302B0AF548B70D2D8D2B0313 /* [CP] Check Pods Manifest.lock */,
+				C37485DB2869831E0098F946 /* Sources */,
+				C37485DC2869831E0098F946 /* Frameworks */,
+				C37485DD2869831E0098F946 /* Resources */,
+				5ED4EB2A16EA15D15F8C2BB9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C37485E12869831E0098F946 /* PBXTargetDependency */,
+			);
+			name = LocalStorageUITests;
+			productName = LocalStorageUITests;
+			productReference = C37485DF2869831E0098F946 /* LocalStorageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C37485B42869831C0098F946 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					C37485BB2869831C0098F946 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					C37485D42869831E0098F946 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C37485BB2869831C0098F946;
+					};
+					C37485DE2869831E0098F946 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = C37485BB2869831C0098F946;
+					};
+				};
+			};
+			buildConfigurationList = C37485B72869831C0098F946 /* Build configuration list for PBXProject "LocalStorage" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C37485B32869831C0098F946;
+			productRefGroup = C37485BD2869831C0098F946 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C37485BB2869831C0098F946 /* LocalStorage */,
+				C37485D42869831E0098F946 /* LocalStorageTests */,
+				C37485DE2869831E0098F946 /* LocalStorageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C37485BA2869831C0098F946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37485CF2869831E0098F946 /* LaunchScreen.storyboard in Resources */,
+				C37485CC2869831E0098F946 /* Assets.xcassets in Resources */,
+				C37485C72869831C0098F946 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37485D32869831E0098F946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37485DD2869831E0098F946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C3A7041ADDE9F502DB74D4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocalStorage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		302B0AF548B70D2D8D2B0313 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocalStorage-LocalStorageUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5ED4EB2A16EA15D15F8C2BB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocalStorage-LocalStorageUITests/Pods-LocalStorage-LocalStorageUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocalStorage-LocalStorageUITests/Pods-LocalStorage-LocalStorageUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LocalStorage-LocalStorageUITests/Pods-LocalStorage-LocalStorageUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		605763BCA84E9C806C9D883A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocalStorage/Pods-LocalStorage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocalStorage/Pods-LocalStorage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LocalStorage/Pods-LocalStorage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67D9CFD165F85189E26F1B5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocalStorageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C37485B82869831C0098F946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37485C42869831C0098F946 /* ViewController.swift in Sources */,
+				C37485CA2869831C0098F946 /* LocalStorage.xcdatamodeld in Sources */,
+				C37486062869893D0098F946 /* UserTableViewCell.swift in Sources */,
+				C34468492869BF8F00F111DD /* DetailsViewController.swift in Sources */,
+				C37485F7286985BC0098F946 /* ErrorHandler.swift in Sources */,
+				C37485C02869831C0098F946 /* AppDelegate.swift in Sources */,
+				C37485C22869831C0098F946 /* SceneDelegate.swift in Sources */,
+				C3748602286988560098F946 /* UserModel.swift in Sources */,
+				C37485F9286985F20098F946 /* ApiClient.swift in Sources */,
+				C37486042869886A0098F946 /* User.swift in Sources */,
+				C37485FC286986500098F946 /* Common.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37485D12869831E0098F946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37485DA2869831E0098F946 /* LocalStorageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C37485DB2869831E0098F946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37485E62869831E0098F946 /* LocalStorageUITestsLaunchTests.swift in Sources */,
+				C37485E42869831E0098F946 /* LocalStorageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C37485D72869831E0098F946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C37485BB2869831C0098F946 /* LocalStorage */;
+			targetProxy = C37485D62869831E0098F946 /* PBXContainerItemProxy */;
+		};
+		C37485E12869831E0098F946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C37485BB2869831C0098F946 /* LocalStorage */;
+			targetProxy = C37485E02869831E0098F946 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C37485C52869831C0098F946 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C37485C62869831C0098F946 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C37485CD2869831E0098F946 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C37485CE2869831E0098F946 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C37485E72869831E0098F946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C37485E82869831E0098F946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C37485EA2869831E0098F946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 364E395CBA3402AA003EDDD7 /* Pods-LocalStorage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LocalStorage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiroshan.LocalStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C37485EB2869831E0098F946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7760303CC3E86758B06DA92 /* Pods-LocalStorage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LocalStorage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiroshan.LocalStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C37485ED2869831E0098F946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDBA02328ED49DB17B6B3BA5 /* Pods-LocalStorageTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiroshan.LocalStorageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalStorage.app/LocalStorage";
+			};
+			name = Debug;
+		};
+		C37485EE2869831E0098F946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DFD7F9424213899E5A977B /* Pods-LocalStorageTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiroshan.LocalStorageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalStorage.app/LocalStorage";
+			};
+			name = Release;
+		};
+		C37485F02869831E0098F946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F224B1F435B7B6B75FE64D29 /* Pods-LocalStorage-LocalStorageUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiroshan.LocalStorageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LocalStorage;
+			};
+			name = Debug;
+		};
+		C37485F12869831E0098F946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D19371903BBC48E68F730CFC /* Pods-LocalStorage-LocalStorageUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kiroshan.LocalStorageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LocalStorage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C37485B72869831C0098F946 /* Build configuration list for PBXProject "LocalStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37485E72869831E0098F946 /* Debug */,
+				C37485E82869831E0098F946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C37485E92869831E0098F946 /* Build configuration list for PBXNativeTarget "LocalStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37485EA2869831E0098F946 /* Debug */,
+				C37485EB2869831E0098F946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C37485EC2869831E0098F946 /* Build configuration list for PBXNativeTarget "LocalStorageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37485ED2869831E0098F946 /* Debug */,
+				C37485EE2869831E0098F946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C37485EF2869831E0098F946 /* Build configuration list for PBXNativeTarget "LocalStorageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37485F02869831E0098F946 /* Debug */,
+				C37485F12869831E0098F946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C37485C82869831C0098F946 /* LocalStorage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C37485C92869831C0098F946 /* LocalStorage.xcdatamodel */,
+			);
+			currentVersion = C37485C92869831C0098F946 /* LocalStorage.xcdatamodel */;
+			path = LocalStorage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C37485B42869831C0098F946 /* Project object */;
+}
